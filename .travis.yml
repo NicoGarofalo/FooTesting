@@ -6,6 +6,8 @@ install: ant
 
 script:
  - ant integracion-continua
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
   
 notifications:
   email:
@@ -13,7 +15,4 @@ notifications:
      - nico.garofalo98@gmail.com
     on_failure: always
     on_success: always
-      
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
 
