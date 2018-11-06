@@ -3,9 +3,6 @@ jdk:
   - oraclejdk8
 
 install: ant
-
-script:
-  - ant
   
 notifications:
   email:
