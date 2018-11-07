@@ -1,2 +1,3 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/db973e0e0db54f788dca7f8fdf99f138)](https://app.codacy.com/app/NicoGarofalo/FooTesting?utm_source=github.com&utm_medium=referral&utm_content=NicoGarofalo/FooTesting&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/NicoGarofalo/FooTesting.svg?branch=master)](https://travis-ci.org/NicoGarofalo/FooTesting) [![codecov](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://codecov.io/gh/NicoGarofalo/FooTesting)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
