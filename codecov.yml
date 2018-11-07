@@ -1,6 +1,5 @@
 codecov:
-  notify:
-    require_ci_to_pass: yes
+  branch: master
 
 coverage:
   precision: 2
@@ -8,19 +7,28 @@ coverage:
   range: "70...100"
 
   status:
-    project: yes
-    patch: yes
-    changes: no
+    project:
+      default:
+        target: auto
+        branches: 
+        - master
 
-parsers:
-  gcov:
-    branch_detection:
-      conditional: yes
-      loop: yes
-      method: no
-      macro: no
+    patch:
+      default:
+        target: auto
+        branches: 
+        - master
+
+    changes:
+      default:
+        branches: 
+        - master
+
+  ignore: 
+  - .*/test/.*
 
 comment:
-  layout: "header, diff"
+  layout: "header, diff, changes, sunburst, uncovered, tree"
+  branches: 
+  - master
   behavior: default
-  require_changes: no
